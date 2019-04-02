@@ -1,0 +1,156 @@
+* {
+  font-family: "open sans";
+}
+
+body {
+  background-color: #FFF5E7;
+  font-family: "open sans";
+}
+
+#drumMatrix {
+  height: 200px;
+  width: 800px;
+  float: left;
+}
+
+#synthMatrix {
+  height: 200px;
+  width: 800px;
+  float: left;
+}
+
+#bassMatrix {
+  clear: left;
+  float: left;
+  height: 200px;
+  width: 800px;
+}
+
+#tempo {
+  width: 100px;
+  height: 170px;
+  clear: both;
+  float: right;
+}
+
+#volume {
+  width: 100px;
+  height: 170px;
+  float: right;
+}
+
+.drumSelector {
+  float: right;
+  margin: 5px;
+  height: 80%;
+  clear: right;
+}
+
+#drumVolume {
+  width: 300px;
+  height: 200px;
+  /*padding: 25px;
+  box-sizing: content-box;*/
+}
+
+.container {
+  float: left;
+  position: relative;
+}
+
+.container label {
+  position: absolute;
+  left: 5px;
+}
+
+.container select {
+  position: absolute;
+  left: 50px;
+}
+
+.container button {
+  position: absolute;
+  left: 5px;
+  top: 130px;
+}
+
+#modeLabel {
+  top: 7px;
+}
+
+#modeSelector {
+}
+
+#keyLabel {
+  top: 47px;
+}
+
+#keySelector {
+  top: 40px;
+}
+
+#accidentalLabel {
+  top: 87px;
+}
+
+#accidentalSelector {
+  top: 80px;
+  left: 97px;
+}
+
+#octaveLabel {
+  top: 128px;
+}
+
+#octaveUp {
+  left: 65px;
+}
+#octaveDown {
+  left: 95px;
+}
+
+.effectButtons {
+  position: absolute;
+  top: 170px;
+  right: 240px;
+}
+
+#bitcrusherSelect {
+  top: 0px;
+  left: 245px;
+}
+
+#autofilterSelect {
+  top: 0px;
+  left: 320px;
+}
+
+#phaserSelect {
+  top: 0px;
+  left: 393px;
+}
+
+#chorusSelect {
+  top: 22px;
+  left: 325px;
+}
+
+#freeverbSelect {
+  top: 22px;
+  left: 393px;
+}
+
+.startbuttons {
+  clear: left;
+}
+
+#bassVolume {
+  position: absolute;
+  top: 470px;
+  left: 815px;
+}
+
+.startbuttons button {
+  height: 40px;
+  width: 70px;
+}
